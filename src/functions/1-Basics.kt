@@ -14,8 +14,8 @@ package functions
 
 fun main() {
 
-    val numberOne = getValue("Sayi1'i giriniz :")
-    val numberTwo = getValue("Sayi2'yi giriniz :")
+    // val numberOne = getValue("Sayi1'i giriniz :")
+    // val numberTwo = getValue("Sayi2'yi giriniz :")
 
 
     // Fonksiyon cagirilirken ismi ve parametreleri kullanilir.
@@ -53,7 +53,7 @@ fun main() {
     getUserInfo(*arrayOf("Seher", "EREN", "Istanbul", "Turkiye"), key = 4)
 
     // vararg 'ın T generic type türünde kullanımı
-    getUserInfo2("2", 3, true, 'c', "Ahmet")
+    // getUserInfo2("2", 3, true, 'c', "Ahmet")
 
     //NOT : Any veri tipleri NULL değişken tipi kabul etmez. Eğer any tiplere null değer ataması yapacaksak Any? şeklinde tanımlamamız gerekiyor
 }
@@ -165,9 +165,9 @@ fun getUserInfo(vararg userInfo: String, key: Int) {
  *  Generic type belirttiğimizden dolayı
  *  **/
 
-fun <T> getUserInfo2(vararg userInfo: T) {
-    userInfo[2]
-}
+//fun <T> getUserInfo2(vararg userInfo: T) {
+//    userInfo[2]
+//}
 
 /* -------------------------------------------------------------------------------------------------------------------*/
 
