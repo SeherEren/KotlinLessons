@@ -9,9 +9,11 @@ fun main() {
      *      icerisinde yazmadan fonksiyon tanimlayabilmemizi saglar. Boylece o sinifa uye bir fonksiyon kazandirabiliriz.
      *      Bunu yaparken unutmamaniz gereken; yazdiginiz extension fonksiyon aslinda o sinifin gercek bir fonksiyonu olmayacaktir.
      *
-     *      Extension class lara başka class'lardan erişilecek yazılır.
+     *      Extension class lara başka class(dosyalardan)'lardan erişebiliriz çağırarak. Fakat bir class'ın içerisinde
+     *      tanımlanmış bir fonksiyonsa başka sayfalardan(dosyalardan) erişilemez.
      *      Sad but true story. Olsundu. Extension fonksiyonlar kalbinize girecekler. Bir sinifa ait olmalari gerekmez :)
      *
+     *      EXTENSİON Function hangi type türünü extend edecekse; ona " String.extPrint " .(nokta) ile fonksiyon adı yazılır
      *      Reciver diye adlandiracagimiz bir sinifa ihtiyac duyar. Extension yazacagimiz sinifi ifader eder Reciever tanimi.
      *
      *   ** EXTENSİON Fonksiyonlar çağırılırken SARI renkte gösterilir. Normal fonksiyonlar BEYAZ renkte görünür...
