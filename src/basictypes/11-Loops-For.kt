@@ -22,6 +22,7 @@ fun main() {
         println("\n$index . değeri : ${countryCodeArray[index]}")
     }
 
+    //Bu yapı desturcturing declaration yapısıdır.(data class özelliği)
     for ((index, value) in countryCodeArray.withIndex()) {
         println("\n$index . değeri : $value")
     }
